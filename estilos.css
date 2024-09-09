@@ -1,0 +1,67 @@
+#container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.inputDiv {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#buttonSearch {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#statsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tableHead {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: #007BFF;
+    color: white
+}
+
+/* #header {
+    background-color: #f8f8f8;
+    font-weight: bold;
+} */
+
+td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.team-logo {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.team-name {
+    vertical-align: middle;
+    font-size: 24px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Estadisticas</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>ESTADISTICAS MN.UNITED PREMIER LEAGUE</h1>
+
+        <div class="input-section">
+            <input type="text" id="teamId" class="inputDiv" placeholder="Digite 33">
+            <input type="text" id="season" class="inputDiv" placeholder="Ingrese season 2020-2022">
+            <button id="buttonSearch" onclick="obtenerEquipoInput()">Consultar</button>
+        </div>
+
+        <div id="teamInfo">
+            <!-- aqui se rellenan cosas de tin -->
+        </div>
+
+        <table id="statsTable">
+            <thead>
+                <tr>
+                    <th class="tableHead"></th>
+                    <th class="tableHead">Local</th>
+                    <th class="tableHead">Visitante</th>
+                    <th class="tableHead">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- aqui se rellenan las stats -->
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
